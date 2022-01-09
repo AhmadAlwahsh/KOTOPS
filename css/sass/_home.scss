@@ -1,0 +1,35 @@
+.landing{
+    min-height: 100vh;
+    background-image: url(../images/books.jpg);
+    background-size: cover;
+    position: relative;
+    .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 70px;
+            text-align: center;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: $redColor;
+            text-shadow: 5px 5px $greenColor , -5px -5px $whiteColor;
+            span{
+                font-size: 130px;
+                font-weight: bolder;
+                text-shadow: 5px 5px $whiteColor , -5px -5px $redColor;
+                color: $greenColor;
+            }
+        }
+    }
+}

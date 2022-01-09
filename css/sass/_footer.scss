@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: $redColor;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .copy{
+            color: $whiteColor;
+            font-size: 20px;
+            text-align: center;
+            span{
+                color: $greenColor;
+                font-weight: bolder;
+            }
+        }
+    }
+}
